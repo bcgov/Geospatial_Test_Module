@@ -1,10 +1,10 @@
-# Geospatial Test Module
+# GeoEnvironment Test Modules
 
-A test module to test the functionality of the Geospatial VDI python environment. 
+Modules that will test the functionality of various Geospatial scripting environments (such as the Geospatial VDesk environments).
 
-The module will be able to:
-- Test that important python libraries are available and able to import. (geobc.py, geopandas, pandas, etc...)
-- Test select functions of each library as needed, especially for functions that have failed in the past.
+The modules will be able to:
+- Test the import success of key python libraries. (geobc.py, geopandas, pandas, etc...)
+- Test select functions of each library, especially specific functions that have failed in the past.
 - Etc...
 
-The module will be able to run on a schedule and email interested parties when there are issues within the environment. 
+The modules will be able to run on a schedule and email interested parties when there are issues within an environment. 
